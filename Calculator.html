@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Css file -->
+        <link href="Calculator.css" type="text/css" rel="stylesheet">
+
+        <title>Calculator</title>
+    </head>
+    <body>
+        <fieldset>
+        <legend><h1>Calculator</h1></legend>
+        <label>
+        First value
+        <input type="text" id="fir">
+        </label>
+                                                        <br>
+        <label>
+        Second value
+        <input type="text" id="sec">
+        </label>
+                                                        <br>
+        <label>
+        Operations
+        <input type="button" value="+" onclick="sum()" id="sum">
+        </label>
+        <label>
+        <input type="button" value="-" onclick="sub()" id="sub">
+        </label>
+        <label>
+        <input type="button" value="*" onclick="mul()" id="mul">
+        </label>
+        <label>
+        <input type="button" value="/" onclick="div()" id="div">
+        </label>
+        <label>
+        <input type="button" value="clear" onclick="clr()">
+        </label>
+                                                        <br>
+        <label>
+        Result
+        <input type="text" id="result">
+        </label>
+        </fieldset>
+        <footer>Made by Owais Butt</footer>
+
+        <!-- Js file -->
+        <script src="Calculator.js"></script>
+
+    </body>
+</html>

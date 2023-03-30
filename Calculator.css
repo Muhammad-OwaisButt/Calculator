@@ -1,0 +1,17 @@
+html{
+    font-family: arial;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border: 3px solid black;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+label{
+    line-height: 4px;
+}
+footer{
+    font-size: 12px;
+    margin-left: 1px;
+}
